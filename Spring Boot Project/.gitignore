@@ -1,0 +1,52 @@
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+.settings/
+
+# Build directories
+/target/
+/build/
+
+# Maven
+.mvn/
+!**/src/main/**/mvnw
+!**/src/main/**/mvnw.cmd
+.mvnw
+.mvnw.cmd
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment and config
+.env
+*.properties.local
+application-*.yml
+application-*.yaml

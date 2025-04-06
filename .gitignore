@@ -1,0 +1,115 @@
+# Ignore Terraform state files and backups
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform variables (secrets, credentials)
+*.tfvars.json
+
+# Ignore Terraform lock files
+.terraform.lock.hcl
+
+# Ignore Terraform cache and downloaded providers
+.terraform/
+
+# Ignore SSH private keys (VERY IMPORTANT)
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Ignore Logs and Debug files
+crash.log
+terraform.tfplan
+terraform.tfplan.*
+
+# Ignore IDE and system-generated files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive output files
+*.backup
+*.bak
+*.log
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+.settings/
+
+# Build directories
+/target/
+/build/
+
+# Maven
+.mvn/
+!**/src/main/**/mvnw
+!**/src/main/**/mvnw.cmd
+.mvnw
+.mvnw.cmd
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment and config
+.env
+*.properties.local
+application-*.yml
+application-*.yaml
+
+# Node.js dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# NPM/Yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

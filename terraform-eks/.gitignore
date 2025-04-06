@@ -1,0 +1,39 @@
+# Ignore Terraform state files and backups
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform variables (secrets, credentials)
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+
+# Ignore Terraform lock files
+.terraform.lock.hcl
+
+# Ignore Terraform cache and downloaded providers
+.terraform/
+
+# Ignore SSH private keys (VERY IMPORTANT)
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Ignore Logs and Debug files
+crash.log
+terraform.tfplan
+terraform.tfplan.*
+
+# Ignore IDE and system-generated files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive output files
+*.backup
+*.bak
+*.log
