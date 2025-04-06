@@ -1,5 +1,9 @@
 # Please follow the below get the Cluster up and running. Then deploy the Application via Helm as well as Logging through Loki
 
+## High-Level Architecture Design (AWS Deployment)
+
+![eks-cloud drawio (1)](https://github.com/user-attachments/assets/c20234d6-0a11-48fe-8de1-b43c323fe7f3)
+
 ## Install the AWS CLI and then open the terminal
 
 Run the command : aws configure
